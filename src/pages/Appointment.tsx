@@ -8,7 +8,7 @@ import { useToast } from "@/hooks/use-toast";
 import SEO from "@/components/SEO";
 import { Link } from "react-router-dom";
 
-const WHATSAPP_NUMBER = "917023898912";
+const WHATSAPP_NUMBER = "919588925771";
 
 const reasons = [
   "No Surgery · No Medicine",
@@ -58,8 +58,8 @@ const Appointment = () => {
   return (
     <>
       <SEO
-        title="Book Appointment | Best Chiropractor in Jaipur | Spinal Care Clinic"
-        description="Book your chiropractic appointment at Spinal Care Clinic, Jaipur. Expert treatment for back pain, neck pain, sciatica & spine issues. No surgery. No medicine. Call +91 7023898912."
+        title="Book Appointment | Best Chiropractor in Jaipur | Dr. Harshvardhan Clinic"
+        description="Book your chiropractic appointment at Dr. Harshvardhan Clinic, Jaipur. Expert treatment for back pain, neck pain, sciatica & spine issues. No surgery. No medicine. Call +91 9588925771."
         canonical="https://www.chiropractorjaipur.com/appointment"
       />
 
@@ -67,9 +67,9 @@ const Appointment = () => {
         {/* Minimal header */}
         <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-b border-border/50 py-3 px-4 flex items-center justify-between">
           <Link to="/" className="font-display text-base md:text-lg font-bold text-primary">
-            Spinal Care Chiropractic Clinic<span className="text-accent">.</span>
+            Dr. Harshvardhan Chiropractic Clinic<span className="text-accent">.</span>
           </Link>
-          <a href="tel:+917023898912" className="inline-flex items-center gap-2 h-9 px-4 rounded-full gradient-hero text-primary-foreground text-sm font-medium">
+          <a href="tel:+919588925771" className="inline-flex items-center gap-2 h-9 px-4 rounded-full gradient-hero text-primary-foreground text-sm font-medium">
             <Phone className="w-4 h-4" /> Call Now
           </a>
         </header>
@@ -85,10 +85,10 @@ const Appointment = () => {
                 Get Rid of Spine Pain<br />Without Surgery or Medicine
               </h1>
               <p className="text-primary-foreground/90 text-lg max-w-xl mx-auto mb-6">
-                Expert chiropractic care by Mr. Rajyavardhan — Licensed Chiropractor & Osteopath in Jaipur with 4+ years experience.
+                Expert chiropractic care by Dr. Harshvardhan Chaturvedi — Licensed Chiropractor & Osteopath in Jaipur with 4+ years experience.
               </p>
-              <a href="tel:+917023898912" className="inline-flex items-center gap-2 bg-white text-primary font-bold h-12 px-8 rounded-full text-base hover:bg-white/90 transition-colors">
-                <Phone className="w-5 h-5" /> Call: +91 70238 98912
+              <a href="tel:+919588925771" className="inline-flex items-center gap-2 bg-white text-primary font-bold h-12 px-8 rounded-full text-base hover:bg-white/90 transition-colors">
+                <Phone className="w-5 h-5" /> Call: +91 95889 25771
               </a>
             </motion.div>
           </div>
@@ -121,7 +121,7 @@ const Appointment = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                    <a href="tel:+917023898912" className="text-primary font-semibold">+91 70238 98912</a>
+                    <a href="tel:+919588925771" className="text-primary font-semibold">+91 95889 25771</a>
                   </div>
                 </div>
 
@@ -187,7 +187,7 @@ const Appointment = () => {
 
                   <div className="mt-4 text-center">
                     <span className="text-muted-foreground text-sm">or call directly: </span>
-                    <a href="tel:+917023898912" className="text-primary font-bold text-sm">+91 70238 98912</a>
+                    <a href="tel:+919588925771" className="text-primary font-bold text-sm">+91 95889 25771</a>
                   </div>
 
                   <p className="text-xs text-muted-foreground text-center mt-4">
@@ -200,7 +200,7 @@ const Appointment = () => {
 
           {/* Footer */}
           <footer className="border-t border-border/50 py-8 text-center text-sm text-muted-foreground">
-            <p>© 2026 Spinal Care Chiropractic Clinic, Jaipur. All rights reserved.</p>
+            <p>© 2026 Dr. Harshvardhan Chiropractic Clinic, Jaipur. All rights reserved.</p>
             <div className="flex justify-center gap-4 mt-2">
               <Link to="/" className="hover:text-primary transition-colors">Home</Link>
               <Link to="/services" className="hover:text-primary transition-colors">Services</Link>

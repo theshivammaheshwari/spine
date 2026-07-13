@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 
-const WHATSAPP_NUMBER = "917023898912";
+const WHATSAPP_NUMBER = "919588925771";
 
 const BookingSection = () => {
   const { toast } = useToast();
@@ -39,7 +39,7 @@ const BookingSection = () => {
               Not every injury needs surgery. Experience the power of chiropractic to unlock your body's natural healing capabilities.
             </p>
             <p className="text-muted-foreground">
-              Call <a href="tel:+917023898912" className="text-primary font-semibold">7023898912</a> for a prior appointment or fill out the form.
+              Call <a href="tel:+919588925771" className="text-primary font-semibold">9588925771</a> for a prior appointment or fill out the form.
             </p>
           </motion.div>
 

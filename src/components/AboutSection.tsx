@@ -15,7 +15,7 @@ const AboutSection = () => (
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
           <span className="text-primary font-semibold text-sm uppercase tracking-wider">About Us</span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-6">
-            Spinal Care Chiropractic Clinic, Jaipur
+            Dr. Harshvardhan Chiropractic Clinic, Jaipur
           </h2>
           <p className="text-muted-foreground mb-6">
             {doctor.bio}

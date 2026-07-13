@@ -9,13 +9,13 @@ interface SEOProps {
 }
 
 const SEO = ({ 
-  title = "Spinal Care Chiropractic Clinic Jaipur | Best Chiropractor in India", 
+  title = "Dr. Harshvardhan Chiropractic Clinic Jaipur | Best Chiropractor in India", 
   description = "Top ranked spine chiropractor in Jaipur, India. Professional chiropractic care, spine correction, osteopathy. No surgery, no medicine.", 
   canonical = "https://www.chiropractorjaipur.com",
   ogType = "website",
   ogImage = "/logo.jpeg"
 }: SEOProps) => {
-  const fullTitle = title.includes("Spinal Care") ? title : `${title} | Spinal Care Chiropractic Clinic`;
+  const fullTitle = title.includes("Spinal Care") ? title : `${title} | Dr. Harshvardhan Chiropractic Clinic`;
   
   return (
     <Helmet>
@@ -38,11 +38,11 @@ const SEO = ({
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "MedicalClinic",
-          "name": "Spinal Care Chiropractic Clinic",
+          "name": "Dr. Harshvardhan Chiropractic Clinic",
           "image": "https://www.chiropractorjaipur.com/logo.jpeg",
           "@id": "https://www.chiropractorjaipur.com",
           "url": "https://www.chiropractorjaipur.com",
-          "telephone": "+917023898912",
+          "telephone": "+919588925771",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "House no -26, S.B vihar gate, Nanag vihar, 10, Swej Farm Rd, near relience smart point, Ramnagar Extension, Sodala",

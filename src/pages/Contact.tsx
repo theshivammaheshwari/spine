@@ -7,7 +7,7 @@ const Contact = () => (
   <Layout>
     <SEO 
       title="Contact Us | Book an Appointment in Jaipur" 
-      description="Contact Spinal Care Chiropractic Clinic for professional spine care. Book your appointment today and start your journey to pain-free living."
+      description="Contact Dr. Harshvardhan Chiropractic Clinic for professional spine care. Book your appointment today and start your journey to pain-free living."
       canonical="https://www.chiropractorjaipur.com/contact"
     />
     <ContactSection />

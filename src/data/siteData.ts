@@ -23,28 +23,28 @@ export const testimonials = [
   {
     name: "Shivam Maheshwari",
     role: "Technical Superintendent",
-    text: "I had severe spine pain that was affecting my daily life and work. I visited Spinal Care Chiropractic Clinic and within just 2 sessions, my spine was completely aligned and the pain was gone. The treatment was professional, painless, and incredibly effective. Mr. Rajyavardhan truly knows what he's doing — highly recommended for anyone dealing with spine issues!",
+    text: "I had severe spine pain that was affecting my daily life and work. I visited Dr. Harshvardhan Chiropractic Clinic and within just 2 sessions, my spine was completely aligned and the pain was gone. The treatment was professional, painless, and incredibly effective. Dr. Harshvardhan Chaturvedi truly knows what he's doing — highly recommended for anyone dealing with spine issues!",
     rating: 5,
     image: "/wp-media/shivam-maheshwari.jpg",
   },
   {
     name: "Pramod Poonia",
     role: "Government Officer",
-    text: "Spinal Care Chiropractic Clinic has been a game-changer for me. I had been struggling with debilitating neck pain for months, and nothing seemed to help until I visited their clinic. Their holistic approach and gentle adjustments made all the difference. I'm so grateful for their care, and I can now say goodbye to the constant discomfort. Highly recommend!",
+    text: "Dr. Harshvardhan Chiropractic Clinic has been a game-changer for me. I had been struggling with debilitating neck pain for months, and nothing seemed to help until I visited their clinic. Their holistic approach and gentle adjustments made all the difference. I'm so grateful for their care, and I can now say goodbye to the constant discomfort. Highly recommend!",
     rating: 5,
     image: "/wp-media/Screenshot-2024-03-26-231405.png",
   },
   {
     name: "Deepesh Sethi",
     role: "Financial Consultant",
-    text: "I highly recommend Spinal Care Chiropractic Clinic to anyone seeking effective chiropractic care. Their friendly staff and welcoming atmosphere immediately put me at ease. Thanks to their expertise, I've regained mobility and am back to enjoying my favorite activities without limitations.",
+    text: "I highly recommend Dr. Harshvardhan Chiropractic Clinic to anyone seeking effective chiropractic care. Their friendly staff and welcoming atmosphere immediately put me at ease. Thanks to their expertise, I've regained mobility and am back to enjoying my favorite activities without limitations.",
     rating: 5,
     image: "/wp-media/Screenshot-2024-03-04-224704.png",
   },
   {
     name: "Prashant Saxena",
     role: "Software Engineer",
-    text: "After struggling with chronic back pain for years, I finally found relief at Spinal Care Chiropractic Clinic. Their knowledgeable and compassionate team provided me with personalized care that targeted the root cause of my discomfort. Thanks to their expertise, I'm now able to live my life to the fullest, pain-free.",
+    text: "After struggling with chronic back pain for years, I finally found relief at Dr. Harshvardhan Chiropractic Clinic. Their knowledgeable and compassionate team provided me with personalized care that targeted the root cause of my discomfort. Thanks to their expertise, I'm now able to live my life to the fullest, pain-free.",
     rating: 5,
     image: "/wp-media/prashant-pic.jpg",
   },
@@ -66,41 +66,12 @@ export const testimonials = [
 
 // ─── Gallery images (from WP /photo-gallery/ page) ─────────────
 export const galleryImages = [
-  { src: "/wp-media/WhatsApp-Image-2024-03-26-at-23.15.54_1f13fa47.jpg", alt: "Chiropractic clinic treatment session" },
-  { src: "/wp-media/WhatsApp-Image-2024-03-26-at-23.16.04_47a2a89d.jpg", alt: "Patient receiving spine adjustment" },
-  { src: "/wp-media/WhatsApp-Image-2024-03-26-at-23.16.05_1083890a.jpg", alt: "Chiropractic care in progress" },
-  { src: "/wp-media/pic20-1.jpg", alt: "Clinic treatment room" },
-  { src: "/wp-media/WhatsApp-Image-2024-03-26-at-23.16.06_3d642989.jpg", alt: "Spine alignment session" },
-  { src: "/wp-media/WhatsApp-Image-2024-03-26-at-23.16.06_70910cd3.jpg", alt: "Professional chiropractic equipment" },
-  { src: "/wp-media/WhatsApp-Image-2024-03-26-at-23.16.06_f286c4a7.jpg", alt: "Patient consultation" },
-  { src: "/wp-media/WhatsApp-Image-2024-03-26-at-23.16.07_0b7e4788.jpg", alt: "Spine correction treatment" },
-  { src: "/wp-media/WhatsApp-Image-2024-03-26-at-23.16.07_97b4b30d.jpg", alt: "Back pain treatment" },
-  { src: "/wp-media/WhatsApp-Image-2024-03-26-at-23.16.07_665c4930.jpg", alt: "Chiropractic adjustment" },
-  { src: "/wp-media/WhatsApp-Image-2024-03-26-at-23.16.08_abf9ba75.jpg", alt: "Clinic interior" },
-  { src: "/wp-media/WhatsApp-Image-2024-03-26-at-23.16.08_eb7d0237.jpg", alt: "Treatment demonstration" },
-  { src: "/wp-media/1.jpeg", alt: "Chiropractic treatment session 1" },
-  { src: "/wp-media/2.jpeg", alt: "Spine correction therapy" },
-  { src: "/wp-media/3.jpeg", alt: "Patient recovery progress" },
-  { src: "/wp-media/4.jpeg", alt: "Clinic treatment in action" },
-  { src: "/wp-media/5.jpeg", alt: "Professional chiropractic care" },
-  { src: "/wp-media/6.jpeg", alt: "Spine alignment procedure" },
-  { src: "/wp-media/7.jpeg", alt: "Back pain relief treatment" },
-  { src: "/wp-media/8.jpeg", alt: "Chiropractic adjustment session" },
-  { src: "/wp-media/9.jpeg", alt: "Patient consultation and care" },
-  { src: "/wp-media/10.jpeg", alt: "Advanced spine treatment" },
-  { src: "/wp-media/11.jpeg", alt: "Osteopathy treatment session" },
-  { src: "/wp-media/12.jpeg", alt: "Clinic facility and equipment" },
-  { src: "/wp-media/13.jpeg", alt: "Chiropractic care session" },
-  { src: "/wp-media/14.jpeg", alt: "Spine treatment procedure" },
-  { src: "/wp-media/15.jpeg", alt: "Patient recovery session" },
-  { src: "/wp-media/16.jpeg", alt: "Clinic treatment demonstration" },
-  { src: "/wp-media/gallery-new-1.jpeg", alt: "Patient from Spain receiving treatment for cervical spondylitis" },
-  { src: "/wp-media/gallery-new-2.jpeg", alt: "Happy patient after chiropractic treatment" },
-  { src: "/wp-media/gallery-may-1.jpeg", alt: "Patient chiropractic treatment session" },
-  { src: "/wp-media/gallery-may-2.jpeg", alt: "Chiropractic care and spine adjustment" },
-  { src: "/wp-media/gallery-may-21.jpeg", alt: "Latest clinic treatment and patient care" },
-  { src: "/wp-media/gallery-may-21-2.jpeg", alt: "Spine harmony chiropractic treatment" },
-  { src: "/wp-media/gallery-jun-14.jpeg", alt: "Patient chiropractic session" },
+  { src: "/1.webp", alt: "Chiropractic clinic treatment session" },
+  { src: "/2.webp", alt: "Patient receiving spine adjustment" },
+  { src: "/3.webp", alt: "Chiropractic care in progress" },
+  { src: "/4.webp", alt: "Clinic treatment room" },
+  { src: "/5.webp", alt: "Spine alignment session" },
+  { src: "/6.webp", alt: "Professional chiropractic equipment" },
 ];
 
 // ─── Featured sections (from WP homepage "Top Ranked" section) ──
@@ -129,15 +100,15 @@ export const featuredCards = [
 
 // ─── Doctor / About ─────────────────────────────────────────────
 export const doctor = {
-  name: "Mr. Rajyavardhan",
+  name: "Dr. Harshvardhan Chaturvedi",
   title: "Licensed Chiropractor & Osteopath",
-  portrait: "/wp-media/cropped-dr-raj.jpg",
+  portrait: "/doctor.png",
   quote:
-    "What Dr. Rajyavardhan says, Being one of the few licensed and certified Chiropractors in India is a privilege and a responsibility that I take very seriously. I am proud to say I kick-start the healing process with my patients in a safe and process-driven manner. In particular without any Medication.",
-  bio: "Mr. Rajyavardhan is an experienced chiropractor, spine correction expert, and osteopath in Jaipur, well known for treating cervical pain & lower back pain. Famous for treating bureaucrats and defence personnel. He is one of the best specialists in Jaipur — expert in treating Sciatica and Slip disc problems, Muscle strains, and Neck pain management. No Surgery – No Medicine. All modern modalities are being used from FDA Approved U.S.A.",
+    "What Dr. Dr. Harshvardhan Chaturvedi says, Being one of the few licensed and certified Chiropractors in India is a privilege and a responsibility that I take very seriously. I am proud to say I kick-start the healing process with my patients in a safe and process-driven manner. In particular without any Medication.",
+  bio: "Dr. Harshvardhan Chaturvedi is an experienced chiropractor, spine correction expert, and osteopath in Jaipur, well known for treating cervical pain & lower back pain. Famous for treating bureaucrats and defence personnel. He is one of the best specialists in Jaipur — expert in treating Sciatica and Slip disc problems, Muscle strains, and Neck pain management. No Surgery – No Medicine. All modern modalities are being used from FDA Approved U.S.A.",
   socialLinks: {
-    instagram: "https://www.instagram.com/drrajyavardhan",
-    linkedin: "https://www.linkedin.com/in/rajyavardhan-singh-spine-chiropractic-b08920276/",
+    instagram: "https://www.instagram.com/drharshvardhann_/",
+    linkedin: "https://www.linkedin.com/in/dr-harshvardhan-chaturvedi-b18108268/",
   },
 };
 
@@ -167,10 +138,10 @@ export const stats = [
 
 // ─── Contact info ───────────────────────────────────────────────
 export const contact = {
-  phone: "+917023898912",
-  phoneDisplay: "+91 7023898912",
-  email: "rajyavardhan2017@gmail.com",
+  phone: "+919588925771",
+  phoneDisplay: "+91 9588925771",
+  email: "contact@drharshvardhan.com",
   address:
-    "House no -26, S.B Vihar Gate, Nanag Vihar, 10, Swej Farm Rd, near Reliance Smart Point, Ramnagar Extension, Sodala, Jaipur, Rajasthan 302019",
+    "333, Gurunanakpura, Tilak Nagar, Jaipur, Rajasthan 302004",
   hours: "Mon - Sat: 9:00 AM - 7:00 PM",
 };

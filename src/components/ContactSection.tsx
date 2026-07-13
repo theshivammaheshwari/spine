@@ -26,7 +26,7 @@ const ContactSection = () => (
             </div>
             <div>
               <h3 className="font-display font-semibold text-foreground mb-1">Phone</h3>
-              <a href="tel:+917023898912" className="text-primary font-medium">+91 7023898912</a>
+              <a href="tel:+919588925771" className="text-primary font-medium">+91 9588925771</a>
             </div>
           </div>
           <div className="flex gap-4 items-start">
@@ -35,7 +35,7 @@ const ContactSection = () => (
             </div>
             <div>
               <h3 className="font-display font-semibold text-foreground mb-1">Email</h3>
-              <a href="mailto:rajyavardhan2017@gmail.com" className="text-primary font-medium">rajyavardhan2017@gmail.com</a>
+              <a href="mailto:contact@drharshvardhan.com" className="text-primary font-medium">contact@drharshvardhan.com</a>
             </div>
           </div>
           <div className="flex gap-4 items-start">

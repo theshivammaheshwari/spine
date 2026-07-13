@@ -11,7 +11,7 @@ export const servicesDetails: Record<string, ServiceDetailType> = {
     title: "Spine Alignment",
     slug: "spine-alignment",
     description: "Expert spine alignment in Jaipur to restore your body's natural balance and relieve nerve pressure.",
-    content: "Spine alignment, or chiropractic adjustment, is the core of our practice. Misalignments (subluxations) can cause pain, reduced mobility, and interfere with your nervous system. At Spinal Care Chiropractic Clinic, we use precise, gentle techniques to realign your vertebrae, promoting natural healing without surgery or medicine.",
+    content: "Spine alignment, or chiropractic adjustment, is the core of our practice. Misalignments (subluxations) can cause pain, reduced mobility, and interfere with your nervous system. At Dr. Harshvardhan Chiropractic Clinic, we use precise, gentle techniques to realign your vertebrae, promoting natural healing without surgery or medicine.",
     faqs: [
       { question: "What is spine alignment?", answer: "It is a procedure where a chiropractor uses their hands or a small instrument to apply a controlled, sudden force to a spinal joint." },
       { question: "Is spine alignment painful?", answer: "Most patients feel immediate relief. Some may experience minor soreness for a day or two, similar to after a workout." }
@@ -41,7 +41,7 @@ export const servicesDetails: Record<string, ServiceDetailType> = {
     description: "Expert treatment for cervical spondylosis and neck-related pain in Jaipur.",
     content: "Cervical pain can lead to headaches, dizziness, and numbness in the arms. Our clinic is renowned for treating cervical issues through non-invasive spine correction methods.",
     faqs: [
-      { question: "Is cervical adjustment safe?", answer: "When performed by a licensed professional like Mr. Rajyavardhan, it is extremely safe and effective." }
+      { question: "Is cervical adjustment safe?", answer: "When performed by a licensed professional like Dr. Harshvardhan Chaturvedi, it is extremely safe and effective." }
     ]
   },
   "sciatica": {
