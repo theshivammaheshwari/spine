@@ -29,14 +29,15 @@ const ServicesSection = () => {
           </motion.div>
         </div>
 
-        <div className="flex flex-col lg:flex-row h-[800px] lg:h-[600px] w-full max-w-6xl mx-auto gap-4">
+        <div className="flex flex-col lg:flex-row h-[600px] sm:h-[800px] lg:h-[600px] w-full max-w-6xl mx-auto gap-4">
           {services.map((s, i) => (
             <motion.div
               key={i}
-              className={`relative rounded-3xl overflow-hidden cursor-none transition-all duration-700 ease-[0.16,1,0.3,1] ${
+              className={`relative rounded-3xl overflow-hidden cursor-pointer lg:cursor-none transition-all duration-700 ease-[0.16,1,0.3,1] ${
                 hoveredIndex === i ? "flex-[4] lg:flex-[3]" : "flex-[1]"
               }`}
               onMouseEnter={() => setHoveredIndex(i)}
+              onClick={() => setHoveredIndex(i)}
             >
               <div className="absolute inset-0 bg-black/60 z-10 transition-opacity duration-700" style={{ opacity: hoveredIndex === i ? 0.3 : 0.7 }} />
               <img src={s.image} alt={s.title} className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 grayscale" style={{ transform: hoveredIndex === i ? "scale(1.05)" : "scale(1.2)", filter: hoveredIndex === i ? "grayscale(0%)" : "grayscale(100%)" }} />

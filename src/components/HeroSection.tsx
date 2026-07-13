@@ -35,7 +35,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="font-display text-6xl md:text-8xl lg:text-[11rem] font-black leading-[0.85] tracking-tighter text-foreground mb-6 uppercase"
+          className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-[11rem] font-black leading-[0.85] tracking-tighter text-foreground mb-6 uppercase"
         >
           Heal <br/>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-300">Naturally</span>

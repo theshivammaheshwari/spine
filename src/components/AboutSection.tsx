@@ -14,7 +14,7 @@ const AboutSection = () => (
       <div className="grid lg:grid-cols-2 gap-16 items-start">
         
         {/* Left Side: Sticky Images */}
-        <div className="relative lg:sticky lg:top-32 h-[80vh] w-full rounded-[2.5rem] overflow-hidden group shadow-2xl">
+        <div className="relative lg:sticky lg:top-32 h-[50vh] lg:h-[80vh] w-full rounded-[2.5rem] overflow-hidden group shadow-2xl">
           <div className="absolute inset-0 bg-primary/20 mix-blend-overlay z-10 transition-opacity duration-500 group-hover:opacity-0" />
           <img 
             src="/2.webp" 
@@ -23,9 +23,9 @@ const AboutSection = () => (
           />
           <div className="absolute inset-0 border border-primary/20 rounded-[2.5rem] z-20 pointer-events-none" />
           
-          <div className="absolute bottom-8 left-8 right-8 p-8 bg-black/40 backdrop-blur-xl rounded-3xl z-30 border border-white/10 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
-            <p className="text-2xl font-display font-medium text-white mb-2">100% Commitment</p>
-            <p className="text-base text-white/70">To your spinal health and recovery.</p>
+          <div className="absolute bottom-8 left-8 right-8 p-6 lg:p-8 bg-black/40 backdrop-blur-xl rounded-3xl z-30 border border-white/10 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+            <p className="text-xl lg:text-2xl font-display font-medium text-white mb-2">100% Commitment</p>
+            <p className="text-sm lg:text-base text-white/70">To your spinal health and recovery.</p>
           </div>
         </div>
 
