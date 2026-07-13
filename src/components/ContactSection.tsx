@@ -73,7 +73,7 @@ const ContactSection = () => (
              </div>
           </a>
           <iframe
-            src="https://maps.google.com/maps?q=333,%20Gurunanakpura,%20Tilak%20Nagar,%20Jaipur,%20Rajasthan%20302004&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src="https://maps.google.com/maps?q=Dr+Harshvardhan+Chaturvedi+-+Steps2recovery&t=&z=15&ie=UTF8&iwloc=&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}

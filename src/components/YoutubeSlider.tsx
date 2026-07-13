@@ -5,11 +5,11 @@ import { motion } from 'framer-motion';
 
 // Replace these IDs with the actual video IDs from the channel
 const YOUTUBE_VIDEO_IDS = [
-  "dQw4w9WgXcQ", 
-  "jNQXAC9IVRw",
-  "M7lc1UVf-VE",
-  "2g811Eo7K8U",
-  "ysz5S6PUM-U"
+  "yP6Rp8GWq5M", 
+  "MwF1IKENXCY",
+  "qQoUZ6VQn7Y",
+  "jut8B2eUXlQ",
+  "z0qSD_-jLyQ"
 ];
 
 const YoutubeSlider = () => {
