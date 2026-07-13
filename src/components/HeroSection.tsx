@@ -13,7 +13,7 @@ const HeroSection = () => {
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
 
   return (
-    <section ref={ref} id="home" className="relative pt-[140px] pb-[300px] sm:pt-32 sm:pb-20 lg:min-h-[100svh] flex flex-col sm:justify-center items-center overflow-hidden bg-background">
+    <section ref={ref} id="home" className="relative pt-24 pb-[250px] sm:pt-32 sm:pb-20 lg:min-h-[100svh] flex flex-col sm:justify-center items-center overflow-hidden bg-background">
       {/* Background Elements */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[80vw] h-[80vw] md:w-[40vw] md:h-[40vw] rounded-full bg-primary/20 blur-[120px] mix-blend-screen opacity-50" />
