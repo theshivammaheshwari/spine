@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,61 +6,54 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary Accent: Electric Teal / Neon Cyan */
+    --primary: 173 80% 40%;
+    --primary-foreground: 240 5.9% 10%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 173 80% 40%;
 
     --radius: 1rem;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-
     /* Custom tokens */
-    --teal-light: 220 70% 95%;
-    --teal-dark: 221.2 83.2% 30%;
-    --gradient-hero: linear-gradient(135deg, hsl(221.2 83.2% 53.3%), hsl(230 70% 60%));
-    --gradient-section: linear-gradient(180deg, hsl(210 40% 98%), hsl(210 40% 96%));
-    --glass-bg: hsla(0, 0%, 100%, 0.7);
-    --glass-border: hsla(0, 0%, 100%, 0.3);
-    --shadow-soft: 0 4px 30px hsla(221.2, 83.2%, 53.3%, 0.1);
-    --shadow-card: 0 8px 40px hsla(222.2, 84%, 4.9%, 0.08);
-    --shadow-elevated: 0 20px 60px hsla(222.2, 84%, 4.9%, 0.12);
+    --teal-light: 173 80% 80%;
+    --teal-dark: 173 80% 20%;
+    --gradient-hero: linear-gradient(135deg, hsl(240 10% 3.9%), hsl(240 3.7% 15.9%));
+    --gradient-section: linear-gradient(180deg, hsl(240 10% 3.9%), hsl(240 5.9% 10%));
+    --glass-bg: hsla(240, 10%, 3.9%, 0.7);
+    --glass-border: hsla(240, 3.7%, 15.9%, 0.5);
+    --shadow-soft: 0 4px 30px hsla(173, 80%, 40%, 0.05);
+    --shadow-card: 0 8px 40px hsla(0, 0%, 0%, 0.4);
+    --shadow-elevated: 0 20px 60px hsla(173, 80%, 40%, 0.15);
   }
 }
 
 @layer base {
   * {
     @apply border-border;
+    cursor: none; /* Hide default cursor for custom follower */
   }
 
   html {
@@ -68,12 +61,18 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'Inter', sans-serif;
+    @apply bg-background text-foreground font-sans antialiased selection:bg-primary selection:text-primary-foreground;
+    font-family: 'Space Grotesk', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  /* Keep default cursor for iframes/videos to allow interaction */
+  iframe {
+    cursor: auto;
   }
 }
 
@@ -106,9 +105,17 @@
   }
 
   .text-gradient {
-    background: var(--gradient-hero);
+    background: linear-gradient(135deg, #fff, hsl(173 80% 40%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
