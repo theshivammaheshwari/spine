@@ -1,0 +1,10 @@
+{
+  "name": "wp-migration",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "extract": "node extract.js",
+    "download-media": "node download-media.js",
+    "migrate": "node extract.js && node download-media.js"
+  }
+}
