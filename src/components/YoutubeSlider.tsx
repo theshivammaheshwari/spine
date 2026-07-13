@@ -8,7 +8,6 @@ const YOUTUBE_VIDEO_IDS = [
   "MwF1IKENXCY",
   "qQoUZ6VQn7Y",
   "jut8B2eUXlQ",
-  "z0qSD_-jLyQ",
   "lr_zsMr63Ws"
 ];
 

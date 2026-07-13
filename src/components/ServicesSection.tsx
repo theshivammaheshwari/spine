@@ -29,12 +29,12 @@ const ServicesSection = () => {
           </motion.div>
         </div>
 
-        <div className="flex flex-col lg:flex-row h-[600px] sm:h-[800px] lg:h-[600px] w-full max-w-6xl mx-auto gap-4">
+        <div className="grid grid-cols-1 lg:flex lg:flex-row lg:h-[600px] w-full max-w-6xl mx-auto gap-4">
           {services.map((s, i) => (
             <motion.div
               key={i}
-              className={`relative rounded-3xl overflow-hidden cursor-pointer lg:cursor-none transition-all duration-700 ease-[0.16,1,0.3,1] ${
-                hoveredIndex === i ? "flex-[4] lg:flex-[3]" : "flex-[1]"
+              className={`relative rounded-3xl overflow-hidden cursor-pointer lg:cursor-none transition-all duration-700 ease-[0.16,1,0.3,1] h-[300px] sm:h-[400px] lg:h-auto ${
+                hoveredIndex === i ? "lg:flex-[3]" : "lg:flex-[1]"
               }`}
               onMouseEnter={() => setHoveredIndex(i)}
               onClick={() => setHoveredIndex(i)}
