@@ -99,8 +99,8 @@ const Footer = () => (
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
         <p>© 2026 Dr. Harshvardhan Chiropractic Clinic. All rights reserved.</p>
         <div className="flex gap-6">
-          <Link to="#" className="hover:text-white transition-colors">Privacy Policy</Link>
-          <Link to="#" className="hover:text-white transition-colors">Terms of Service</Link>
+          <Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+          <Link to="/terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link>
         </div>
       </div>
     </div>
