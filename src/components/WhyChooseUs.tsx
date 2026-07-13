@@ -35,13 +35,7 @@ const WhyChooseUs = () => (
         ))}
       </div>
 
-      {/* Defence personnel banner */}
-      <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="mt-16 gradient-hero rounded-3xl p-8 md:p-12 text-center text-primary-foreground">
-        <h3 className="font-display text-2xl md:text-3xl font-bold mb-4">🎖️ Lifetime Free Treatment for Defence Personnel</h3>
-        <p className="max-w-2xl mx-auto text-primary-foreground/90 text-lg">
-          As a tribute to our nation's heroes, we proudly offer <span className="font-bold underline">lifetime free</span> chiropractic treatment for army, navy, air force, paramilitary, and ex-servicemen. No charges — ever.
-        </p>
-      </motion.div>
+
     </div>
   </section>
 );
