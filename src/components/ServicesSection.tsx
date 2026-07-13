@@ -39,8 +39,8 @@ const ServicesSection = () => {
               onMouseEnter={() => setHoveredIndex(i)}
               onClick={() => setHoveredIndex(i)}
             >
-              <div className="absolute inset-0 bg-black/60 z-10 transition-opacity duration-700" style={{ opacity: hoveredIndex === i ? 0.3 : 0.7 }} />
-              <img src={s.image} alt={s.title} className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 grayscale" style={{ transform: hoveredIndex === i ? "scale(1.05)" : "scale(1.2)", filter: hoveredIndex === i ? "grayscale(0%)" : "grayscale(100%)" }} />
+              <div className="absolute inset-0 bg-black/60 z-10 transition-opacity duration-700" style={{ opacity: hoveredIndex === i ? 0.3 : 0.7 }} className="absolute inset-0 bg-black/40 lg:bg-black/60 z-10 transition-opacity duration-700 lg:group-hover:opacity-30" />
+              <img src={s.image} alt={s.title} className={`absolute inset-0 w-full h-full object-cover transition-transform duration-1000 lg:grayscale ${hoveredIndex === i ? 'lg:grayscale-0 lg:scale-105' : 'lg:scale-110'}`} />
               
               <Link to={`/services/${s.slug}`} className="absolute inset-0 z-20 flex flex-col justify-end p-6 md:p-10">
                 <div className="flex items-center gap-4 mb-4">
@@ -48,17 +48,13 @@ const ServicesSection = () => {
                     <s.icon className="w-6 h-6 text-primary" />
                   </div>
                   <h3 
-                    className="font-display text-2xl md:text-3xl font-bold text-white transition-all duration-500 whitespace-nowrap"
-                    style={{
-                      opacity: hoveredIndex === i ? 1 : 0,
-                      transform: hoveredIndex === i ? "translateX(0)" : "translateX(-20px)"
-                    }}
+                    className={`font-display text-2xl md:text-3xl font-bold text-white transition-all duration-500 whitespace-nowrap lg:-translate-x-5 lg:opacity-0 ${hoveredIndex === i ? 'lg:translate-x-0 lg:opacity-100' : ''}`}
                   >
                     {s.title}
                   </h3>
                 </div>
                 
-                <div className={`overflow-hidden transition-all duration-700 ${hoveredIndex === i ? "max-h-40 opacity-100" : "max-h-0 opacity-0"}`}>
+                <div className={`overflow-hidden transition-all duration-700 lg:max-h-0 lg:opacity-0 ${hoveredIndex === i ? "lg:max-h-40 lg:opacity-100" : ""}`}>
                   <p className="text-white/80 text-lg mb-6 line-clamp-2">
                     {s.desc}
                   </p>

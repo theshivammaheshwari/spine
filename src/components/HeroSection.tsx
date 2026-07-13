@@ -13,7 +13,7 @@ const HeroSection = () => {
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
 
   return (
-    <section ref={ref} id="home" className="relative min-h-[100svh] flex flex-col items-center justify-center overflow-hidden bg-background pt-32 pb-48 lg:pb-20">
+    <section ref={ref} id="home" className="relative pt-[140px] pb-[300px] sm:pt-32 sm:pb-20 lg:min-h-[100svh] flex flex-col sm:justify-center items-center overflow-hidden bg-background">
       {/* Background Elements */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[80vw] h-[80vw] md:w-[40vw] md:h-[40vw] rounded-full bg-primary/20 blur-[120px] mix-blend-screen opacity-50" />
@@ -71,8 +71,8 @@ const HeroSection = () => {
         <img 
           src="/doctor.png" 
           alt="Dr. Harshvardhan" 
-          className="w-[120%] sm:w-full max-w-3xl object-contain object-bottom filter drop-shadow-2xl opacity-80"
-          style={{ WebkitMaskImage: 'linear-gradient(to top, black 50%, transparent 100%)', maskImage: 'linear-gradient(to top, black 50%, transparent 100%)' }}
+          className="w-[130%] -ml-[15%] sm:ml-0 sm:w-full max-w-3xl object-contain object-bottom filter drop-shadow-2xl opacity-90"
+          style={{ WebkitMaskImage: 'linear-gradient(to top, black 40%, transparent 100%)', maskImage: 'linear-gradient(to top, black 40%, transparent 100%)' }}
         />
       </motion.div>
     </section>
