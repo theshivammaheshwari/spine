@@ -9,7 +9,7 @@ const YOUTUBE_VIDEO_IDS = [
   "qQoUZ6VQn7Y",
   "jut8B2eUXlQ",
   "z0qSD_-jLyQ",
-  "jNQXAC9IVRw" // Adding one more so it looks good in a grid (2 rows of 3)
+  "lr_zsMr63Ws"
 ];
 
 const YoutubeSlider = () => {
